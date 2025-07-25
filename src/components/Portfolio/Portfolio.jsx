@@ -1,14 +1,16 @@
 import React, { useState } from "react";
-
+import one from "../../assets/images/imgi_1_poert1.png";
+import two from "../../assets/images/imgi_2_port2.png";
+import three from "../../assets/images/imgi_3_port3.png";
 import "./Prtfolio.css";
 export default function Portfolio() {
   const [allimg, setAllimg] = useState([
-    "/imgi_1_poert1.png",
-    "/imgi_2_port2.png",
-    "/imgi_3_port3.png",
-    "/imgi_1_poert1.png",
-    "/imgi_2_port2.png",
-    "/imgi_3_port3.png",
+    one,
+    two,
+    three,
+    one,
+    two,
+    three,
   ]);
 
   const [selectedImg, setSelectedImg] = useState(null);

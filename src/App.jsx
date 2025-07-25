@@ -7,31 +7,29 @@ import Contact from "./components/Contact/Contact";
 
 const router = createBrowserRouter([
   {
-    path: "",
+    path: "/",
     element: <Layout />,
     children: [
-      { path: "", index: true, element: <Home /> },
-      { path: "Home", element: <Home /> },
+      { index: true, element: <Home /> },
+      { path: "home", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "portfolio", element: <Portfolio /> },
       { path: "contact", element: <Contact /> },
-      { path: "*", element: <h5 className="vh-100">not found works</h5> },
-      { path: "", element: <h5 className="vh-100">not found works</h5> },
+      { path: "*", element: <h5 className="vh-100 text-center">404 - Not Found</h5> },
     ],
   },
   {
-    path: "layout",
+    path: "Start-Framework",
     element: <Layout />,
     children: [
-      { path: "", index: true, element: <Home /> },
-      { path: "Home", element: <Home /> },
+      { index: true, element: <Home /> },
+      { path: "home", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "portfolio", element: <Portfolio /> },
       { path: "contact", element: <Contact /> },
-      { path: "*", element: <h5 className="vh-100">not found works</h5> },
-      { path: "", element: <h5 className="vh-100">not found works</h5> },
+      { path: "*", element: <h5 className="vh-100 text-center">404 - Not Found</h5> },
     ],
-  },
+  }
 ]);
 
 function App() {
