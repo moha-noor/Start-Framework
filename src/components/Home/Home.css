@@ -1,0 +1,14 @@
+.home img {
+    width: 250px;
+}
+
+.bg-home{
+    background-color: #1ABC9C;
+}
+.home p{
+    font-size:16px !important;
+    font-weight: 400;
+    color: #fff !important;
+    
+}
+

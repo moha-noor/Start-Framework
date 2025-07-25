@@ -1,0 +1,16 @@
+.con-text{
+    color: #2c3e50 !important;
+  text-align: center;
+
+}
+input{
+    
+    border: 0px !important;
+    border-bottom: 1px solid #d3d9de !important;
+    box-shadow: none !important;
+    padding: 15px!important;
+}
+.btn{
+    background-color:#1abc9c !important; 
+    color: #fff !important;
+}

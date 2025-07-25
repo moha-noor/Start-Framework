@@ -1,0 +1,84 @@
+.navbar-logo {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+}
+.navbar-color,
+.before-footer {
+  background-color: #2c3e50 !important;
+}
+.navbar-links {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  color: #fff !important;
+}
+.box p {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+footer {
+  background-color: #18222c !important;
+}
+footer p {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  border: #fff solid 1px;
+  color: #fff;
+  margin-right: 10px;
+}
+.stare {
+    margin-inline: auto;
+    position: relative;
+    width: fit-content;
+}
+.stare::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background-color: #fff;
+    top: 40%;
+    left: 200%;
+}
+
+.stare::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background-color: #fff;
+    top: 40%;
+    right: 200%;
+}
+
+h2{
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+}
+
+
+
+.active {
+  background-color: #1ABC9C !important;
+  border: #1ABC9C solid;
+  border-radius: 5px;
+}
